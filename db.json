@@ -1,0 +1,77 @@
+{
+  "banco": [
+    {
+      "id": "3f53dc42-07c3-40cd-924e-32a3d82d8952",
+      "nome": "Banco do Brasil SA",
+      "cnpj": "236.566.134/0001-260",
+      "agencia": 365
+    },
+    {
+      "id": "48167cb3-ce4a-4917-badb-cebf1f574584",
+      "nome": "Bradesco SA",
+      "cnpj": "123.256.326/0001-250",
+      "agencia": 253
+    }
+  ],
+  "conta": [
+    {
+      "id": "c3c44d89-42d8-4566-932d-5fa52d780a8c",
+      "numConta": 125,
+      "saldo": 85,
+      "limite": 1500,
+      "tipo": 1,
+      "senha": 12345,
+      "banco": {
+        "id": "3f53dc42-07c3-40cd-924e-32a3d82d8952",
+        "nome": "Banco do Brasil SA",
+        "cnpj": "236.566.134/0001-260",
+        "agencia": 365
+      }
+    },
+    {
+      "id": "5c496ac9-774d-4ed3-9ea5-1a53694146f8",
+      "numConta": 254,
+      "saldo": 1025,
+      "limite": 1650,
+      "tipo": 1,
+      "senha": "$2b$06$bcIyD9XJXYGQrOBYHj/KA.lzwF.5KTuCsugFmRHhO0hTixV7KO8Om",
+      "banco": {
+        "id": "48167cb3-ce4a-4917-badb-cebf1f574584",
+        "nome": "Bradesco SA",
+        "cnpj": "123.256.326/0001-250",
+        "agencia": 253
+      }
+    }
+  ],
+  "cliente": [
+    {
+      "id": "91180a27-850f-4769-9032-1b916cc27bf5",
+      "nome": "Marcos Silvera",
+      "cpf": "455.133.956-22",
+      "rg": "2.323.162-6",
+      "endereco": "Rua Carlos Aguiar, 255",
+      "conta": {
+        "id": null,
+        "numConta": 157,
+        "saldo": 780,
+        "limite": 1000,
+        "tipo": 2,
+        "senha": "$2b$06$srmbbTq/qRGQyDP3xt5kHe6caIw6REd.Go7AMi7KQKYJI1MLU3nqu",
+        "banco": {
+          "id": "48167cb3-ce4a-4917-badb-cebf1f574584",
+          "nome": "Bradesco SA",
+          "cnpj": "123.256.326/0001-250",
+          "agencia": 253
+        }
+      }
+    }
+  ],
+  "user": [
+    {
+      "id": "25d4dda0-ada4-45e7-a27e-82bd366144d2",
+      "name": "Tiago Perroni",
+      "email": "tiagoperroni@gmail",
+      "password": "$2b$08$aZshN1tCROSJr3iVOpgh3eLqkj7XmdQXIVFyK01sIzeqk04.wVrnC"
+    }
+  ]
+}
